@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Apu ya reveló las fotos?</title>
+  <meta name="description" content="La página oficial que avisa cuando Apu por fin revele las fotos." />
+  <meta property="og:title" content="¿Apu ya reveló las fotos?" />
+  <meta property="og:description" content="Spoiler: aún no. Pero aquí te avisamos en el segundo exacto." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📸</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="stage">
+    <div class="aura"></div>
+
+    <p class="eyebrow">— Transmisión oficial 24/7 · vigilando a ese vago —</p>
+    <h1>¿Apu ya reveló las malditas fotos?</h1>
+
+    <section id="verdict" class="verdict no">
+      <span class="emoji" id="emoji">🚫</span>
+      <span class="word" id="word">AÚN NO</span>
+    </section>
+
+    <p class="subtitle" id="subtitle">Obvio que no. Ese negro betún no ha hecho NADA.</p>
+
+    <section class="status">
+      <p class="status-label">📡 ¿Qué está haciendo Apu ahora mismo?</p>
+      <p class="status-text" id="excuse" aria-live="polite">…</p>
+    </section>
+
+    <button class="ping" id="ping">🔔 Avísame cuando este vago se digne</button>
+    <p class="hint" id="hint"></p>
+
+    <footer>
+      <p>Hecho con 💛 mientras esperamos a Apu · <span id="year"></span></p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
